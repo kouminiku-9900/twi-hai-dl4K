@@ -1,5 +1,8 @@
-.local/
-__pycache__/
-*.pyc
-.DS_Store
-release/
+# Ignore everything
+*
+
+# Whitelist src and README
+!src/
+!src/**
+!README.md
+!.gitignore
